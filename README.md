@@ -1,4 +1,4 @@
-# ⚙️ Exo Components Generator Macro — *Tom Clancy’s The Division® 2* (AutoHotkey)
+# ⚙️ Exo Flow Macro — *Tom Clancy’s The Division® 2* (AutoHotkey)
 
 > ⚠️ **WARNING — USE AT YOUR OWN RISK**  
 > This script **creates and deletes characters in an endless loop**.  
