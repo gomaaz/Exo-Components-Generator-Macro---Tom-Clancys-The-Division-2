@@ -30,6 +30,8 @@ It’s primarily intended for players who already completed the game and want to
 Just run the .exe, it will detect the game (or geforce now client) and will display the description as an overlay tooltip to the game.
 From there you can start (F2), Stop/reload (F3) or Quit (F4) the script
 
+The game needs to stay in focus! It will not work in the background. Unexpected behaviour could be the cause by switching to e.g. desktop back and forth. 
+
 You can make custom changes with the ahk file. 
 Therefor you will need autohotkey v1 - https://www.autohotkey.com/download/
 
