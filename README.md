@@ -47,23 +47,9 @@ It’s primarily intended for players who already completed the game and want to
 
 ---
 
-## 🪟 Window Target Selection
+## 🪟 Auto Window Target Selection
 
-The script supports **three modes** depending on how you run The Division 2.
-
-Uncomment **one** of the following lines and comment out the others:
-
-### 🖥️ Native Division 2 (Windows)
-```ahk
-WinActivate, Tom Clancy's The Division 2
-```
-
-### 🖥️ Geforce Now
-```ahk
-WinActivate, Tom Clancy’s The Division® 2 bei GeForce NOW ahk_class CEFCLIENT  ; uncomment for Geforce Now Client Windows
-```
-
-### 🖥️ Geforce Now (running in Chrome)
+The Process auto detects the native Tom Clancy window by default but also works with geforce now client. 
 ```ahk
 WinActivate, Tom Clancy’s The Division® 2 bei GeForce NOW ahk_class Chrome_WidgetWin_1  ; uncomment for Geforce now running in Chrome Window
 ```
