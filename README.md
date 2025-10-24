@@ -25,6 +25,16 @@ It’s primarily intended for players who already completed the game and want to
 
 ---
 
+## 📜 Usage
+
+Just run the .exe, it will detect the game (or geforce now client) and will display the discription with an Overlay to the game.
+From there you can start (F2), Stop/reload (F3) or Quit (F4) the script
+
+You can make custom changes with the ahk file. 
+Therefor you will need autohotkey v1 - https://www.autohotkey.com/download/
+
+---
+
 ## 🧩 Requirements
 
 1. **Ultimate Edition** with **Year One Pass**  
