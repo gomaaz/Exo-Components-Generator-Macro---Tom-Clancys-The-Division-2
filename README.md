@@ -10,8 +10,13 @@
 
 ---
 
-[![Watch on YouTube](https://img.shields.io/badge/▶%20Watch%20on-YouTube-red?style=for-the-badge&logo=youtube)](https://www.youtube.com/watch?v=DEIN_VIDEO_ID)
+<div align="center">
 
+[![Exo Flow Macro Demo](https://img.youtube.com/vi/2wZPLVXWewE/maxresdefault.jpg)](https://youtu.be/2wZPLVXWewE)
+
+**▶️ Watch the Exo Flow Macro Demo on YouTube**
+
+</div>
 
 
 ---
