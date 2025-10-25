@@ -40,9 +40,11 @@ It’s primarily intended for players who already completed the game and want to
 ## 📜 Usage
 
 Just run the .exe, it will detect the game (or geforce now client) and will display the description as an overlay tooltip to the game.
-From there you can start (F2), Stop/reload (F3) or Quit (F4) the script
+From there you can start (F2), Stop/reload (F3) or Quit (F4) the script. 
 
-The game needs to stay in focus! It will not work in the background. Unexpected behaviour could be the cause by switching to e.g. desktop back and forth. 
+The game needs to stay in focus! It will not work in the background. 
+Unexpected behaviour could be the cause by switching to e.g. desktop back and forth. 
+See below for best practices whith using in background.
 
 You can make custom changes with the ahk file. 
 Therefor you will need autohotkey v1 - https://www.autohotkey.com/download/
@@ -51,20 +53,24 @@ Therefor you will need autohotkey v1 - https://www.autohotkey.com/download/
 
 ## 🧩 Requirements
 
-1. **Ultimate Edition** with **Year One Pass**  
-2. Purchase the **Deluxe Pack** in the in-game store  
-   - `ESC → Store → Add-ons → Deluxe Pack`
-3. Free up **one empty agent slot** on the main agent selection screen  
-4. Use **default key mappings** (no custom controls)  
-5. The **rightmost existing agent** must be placed in the safe house **"The Shop"**  
-6. Set inventory sorting to **"Recent"** (clock icon)  
-7. Start the macro when a **blank agent slot** is selected on the main agent selection screen  
+Notice: All instructions are in the script / exe, there you will have the chance to precheck everything
+1. You need the -Ultimate Edition- with the Year One Pass
+2. Buy the -Deluxe Pack- in the in-game store
+   (Esc - Store - Add-ons - Deluxe Pack)
+3. Free up the 4th(!) slot with clean agent slot on the selection screen
+4. Place the 3rd agent in slot into the safe house -The Shop-
+5. Set inventory for sorting to Recent in the 3rd character (clock icon)
+6. Reset the default key mapping, any custom won't work.
+7. Check if you still have the gifts -Lullaby- and -Ruthless-.
+   If so, deconstruct them first!
+8. place the screen to the blank agent slot in the main agent selection screen
+9. Start the script (Press F2)
+10. You can stop everytime with F3 (reload) or F4 (exit)
 
 ---
 
 ## ⚙️ Game Setup & Assumptions
 
-- Keyboard layout: **QWERTY / DE** (default)
 - The script depends on **timed key presses** (`Sleep`, `Send`)  
 - There are **no safety checks, failsafes, or UI validations**
 - Load times vary between systems — you may need to **increase sleep delays**
