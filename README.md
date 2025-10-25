@@ -4,7 +4,7 @@
 ---
 
 <div align="center">
-<img width="1024" height="1024" alt="Gemini_Generated_Image_x75h3xx75h3xx75h" src="https://github.com/user-attachments/assets/1c71a859-93a8-470f-9ca5-460ce82de04d" />
+<img width="1024" height="1024" alt="Gemini_Generated_Image_ta37umta37umta37" src="https://github.com/user-attachments/assets/51fcb3ac-c675-4616-926a-7dff473a8dad" />
 
 
 Demo<br/>
