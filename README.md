@@ -10,6 +10,18 @@
 
 ---
 
+<div align="center">
+
+[![Exo Flow Macro Demo](https://img.youtube.com/vi/2wZPLVXWewE/maxresdefault.jpg)](https://youtu.be/2wZPLVXWewE)
+
+**▶️ Watch the Exo Flow Macro Demo on YouTube**
+
+</div>
+
+
+---
+
+
 ## 📜 Description
 
 This AutoHotkey script automates the process of farming **Exotic Components** by repeatedly:
