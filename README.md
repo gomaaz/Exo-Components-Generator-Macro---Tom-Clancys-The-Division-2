@@ -33,6 +33,11 @@ This AutoHotkey script automates the process of farming **Exotic Components** by
 5. **Deleting** the character  
 6. Repeating the process in a **continuous loop**
 
+One run takes ~3 minutes 25 seconds per run with 2 exos 
+One hour approx 35 Exos
+
+There is a chance, that the stash is empty in several runs. This won't hurt the process.
+
 It’s primarily intended for players who already completed the game and want to automate exotic component farming on a secondary account.
 
 ---
