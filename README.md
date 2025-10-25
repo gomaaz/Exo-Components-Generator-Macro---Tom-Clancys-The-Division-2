@@ -12,7 +12,7 @@
 
 <div align="center">
 
-[![Exo Flow Macro Demo](https://img.youtube.com/vi/2wZPLVXWewE/maxresdefault.jpg)](https://youtu.be/2wZPLVXWewE)
+[![Exo Flow Macro Demo](https://img.youtube.com/vi/2wZPLVXWewE/hqdefault.jpg)](https://youtu.be/2wZPLVXWewE)
 
 **▶️ Watch the Exo Flow Macro Demo on YouTube**
 
