@@ -84,3 +84,62 @@ The Process auto detects the native Tom Clancy window by default but also works 
 WinActivate, Tom Clancy’s The Division® 2 bei GeForce NOW ahk_class Chrome_WidgetWin_1  ; uncomment for Geforce now running in Chrome Window
 ```
 
+---
+
+# Run Your Script in the Background Using RDP Wrapper
+
+## Goal
+Run your script in a background Windows session (no second physical device required) by creating a second local Windows account and connecting to it with **RDP Wrapper**.  
+Start the game (or GeForce Now) in that session and run the script; you can then close the RDP window while the session continues running.
+
+> **Note:** The script requires active window focus for input — this method provides a dedicated session where it can stay active independently.
+
+---
+
+## Overview
+1. Create a **local (non-Microsoft)** user account in Windows.  
+2. Install and configure **RDP Wrapper** to allow remote desktop connections to a second local session.  
+3. Connect to the new local account (`127.0.0.2`), launch the game or GeForce Now, start the script, and then disconnect — the session will keep running in the background.
+
+🔗 **RDP Wrapper Releases:** [https://github.com/sebaxakerhtc/rdpwrap/releases](https://github.com/sebaxakerhtc/rdpwrap/releases)
+
+---
+
+## Step 1 — Create a Local Windows Account
+1. Click **Start** → **Settings**.  
+2. Go to **Accounts** in the left-hand menu.  
+3. Scroll to **Other users** and click **Add account**.  
+4. Select **I don’t have this person’s sign-in information**.  
+5. Click **Add a user without a Microsoft account**.  
+6. Enter a username for the new account.  
+7. Optionally, set a password (or leave it blank).
+
+---
+
+## Step 2 — Install and Configure RDP Wrapper
+1. Download **RDP Wrapper** from the link above.  
+2. Install and configure it according to the project instructions.  
+3. After installation, choose a display resolution for the remote session if prompted.  
+4. Connect to your local device using this address:
+5. Log in with the username and password of your new local account.
+
+> 💡 Use the provided example settings (see project screenshot) for best compatibility.
+
+---
+
+## Step 3 — Connect and Run the Script
+1. Open your **RDP client** and connect to `127.0.0.2`.  
+2. Log in with your local account credentials.  
+3. Inside that remote session, launch the **game** or **GeForce Now** (GeForce Now uses fewer local resources).  
+4. Start your **script** within this session — it will now have its own focused window.  
+5. Close the RDP session window — the background session will keep running along with the script.
+
+---
+
+## Tips & Notes
+- Ensure the local account has permission to run the game and the script.  
+- If GPU resources are limited, prefer **GeForce Now** for streaming instead of running the game directly.  
+- After major Windows updates, check the RDP Wrapper GitHub page for updated configuration files.  
+- You can reconnect anytime to the background session using RDP to monitor or stop the script.
+
+---
